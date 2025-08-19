@@ -1,14 +1,12 @@
-name: CC Custom Action 
-
-description: Greet someone
-
+name: "Hello World Action"
+description: "Greet someone"
 inputs:
-  who-to-greet: 
-    description: Who to greet
+  who-to-greet:
+    description: "The name of the person to greet"
     required: true
-    default: Hello
+    default: "World"
 
-  outputs:
+outputs:
   time:
     description: "The time the greeting happened"
     
