@@ -1,0 +1,17 @@
+name: CC Custom Action 
+
+description: Greet someone
+
+inputs:
+  who-to-greet: 
+    description: Who to greet
+    required: true
+    default: Hello
+
+  outputs:
+  time:
+    description: "The time the greeting happened"
+    
+runs:
+  using: node20
+  main: dist/index.js
